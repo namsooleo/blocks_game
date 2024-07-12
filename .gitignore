@@ -1,0 +1,25 @@
+# Gitignore for Python Repo
+
+# OS files
+.DS_Store
+
+# Virtual environment and env files
+venv/
+.env
+
+# Pycache Files
+**/__pycache__/
+**/*.pyc
+
+# By Project:
+
+# dailydex/email automation/pricechcker
+token.json
+credentials.json
+keys.txt
+
+# pandas tutorial 
+Accidents7904.csv
+
+# rebbit
+**/praw.ini
